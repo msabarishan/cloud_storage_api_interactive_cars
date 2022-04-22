@@ -3,10 +3,10 @@ import psycopg2
 def runquery(sql):
     try:
         #Connect to the heroku postgresql database
-        connection=psycopg2.connect(user="yfxpgallicmvhs",
-                                password="b42a0e5bddc705436e3b39271057b781cc398451ad2292d785d2311927cfbfa1",
-                                host="ec2-52-54-212-232.compute-1.amazonaws.com",
-                                database="dc802bu83sg0v6")
+        connection=psycopg2.connect(user="gpwvcgfprcaaji",
+                                password="abf0e72c574eebd3810c44df8d690a1398dc1e551ff6ee306295825801cb39fe",
+                                host="ec2-34-207-12-160.compute-1.amazonaws.com",
+                                database="d5fmmj82e013ta")
 
         #Create a cursor to perform database operations
         cursor=connection.cursor()
